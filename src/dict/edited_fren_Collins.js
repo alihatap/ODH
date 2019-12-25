@@ -23,7 +23,7 @@ class fren_Collins edited {
         return await this.findCollins(word);
     }
 
-    async findCambridge(word) {
+    async findCollins(word) {
         let notes = [];
         if (!word) return notes; // return empty notes
 
